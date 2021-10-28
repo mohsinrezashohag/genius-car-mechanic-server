@@ -85,7 +85,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send("node server running")
+    res.send("<h1>Node Server Running !! Updated</h1>")
 })
 app.listen(port, () => {
     console.log("listening to  port : ", port);
